@@ -27,5 +27,5 @@ title = titles[0]
 FLAG1 = sha256(title.replace(" ", "")[:8].encode()).hexdigest()
 print(f"FLAG1 = {FLAG1}")
 
-# # FLAG2
-# print(f"FLAG2 = FLAG2{{{to_find.upper()}}}")
+# FLAG2
+print(f"FLAG2 = FLAG2{{{to_find.upper()}}}")
